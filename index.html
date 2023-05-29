@@ -1,81 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <div class="header">
+      <a href="index.html"><h1 class="logo">Epic Alpine Adventures</h1></a>
+      <ul>
+        <a href="#second"><li>Snow</li></a>
+        <a href="#second"><li>Rock</li></a>
+        <a href="#third"><li>Contact Us</li></a>
+      </ul>
+    </div>
 
-<body>
-  <div class="header">
-    <a href="index.html"><h1 class="logo">Epic Alpine Adventures</h1></a>
-    <ul>
-      <a href="#second"><li>Snow</li></a>
-      <a href="#second"><li>Rock</li></a>
-      <a href="#third"><li>Contact Us</li></a>
-    </ul>
-  </div>
-
-  <div class="content">
-    <div id="first">
-      <div class="first-container">
-        <div class="first-left">
-          <div class="main">Explore the Canadian Rockies!</div>
-          <div class="sub-main">With our experienced team of guides, we offer bespoke guiding experiences and courses to improve your skille in the mountains</div>
-          <button class="signup">About Our Guides</button>
+    <div class="content">
+      <div id="first">
+        <div class="first-container">
+          <div class="first-left">
+            <div class="main">Explore the Canadian Rockies!</div>
+            <div class="sub-main">
+              With our experienced team of guides, we offer bespoke guiding
+              experiences and courses to improve your skille in the mountains
+            </div>
+            <button class="signup">About Our Guides</button>
+          </div>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/smJ7j8Zo4O4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/smJ7j8Zo4O4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div id="second">
+        <div class="second-title">Trips and Courses</div>
+        <div class="second-container">
+          <div class="info">
+            <img
+              src="./images/agressive_skier2.png"
+              id="image-box"
+              alt="Powdery ski turn"
+            />
+            <div class="text">Avalanche Safety Training</div>
+          </div>
+          <div class="info">
+            <img
+              src="./images/ski_tour1.png"
+              id="image-box"
+              alt="Skiers walking uphill"
+            />
+            <div class="text">Guided Ski Traverse</div>
+          </div>
+          <div class="info">
+            <img
+              src="./images/alppone_climb.png"
+              id="image-box"
+              alt="Alpine rock climber"
+            />
+            <div class="text">Into To Alpine Climbing</div>
+          </div>
+          <div class="info">
+            <img
+              src="./images/mountain_running.png"
+              id="image-box"
+              alt="Running though the moutains"
+            />
+            <div class="text">Mountain Running Clinics</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="gap1"></div>
+
+      <div id="third">
+        <div class="quote">
+          Our guided ski traverse along the Wapta Icefields was an incredible,
+          once-in-a-lifetime experience. The guides were top-notch - balancing
+          good safety practices with first-hand knowledge of the surrounding
+          wilderness. We are already planning our next forray into the mountains
+          with Epic Alpine Adventures!
+        </div>
+        <div class="author">- Elated Client</div>
+      </div>
+
+      <div id="fourth">
+        <div class="fourth-container">
+          <div class="fourth-left">
+            <div class="call-to-action">Always keep learning!</div>
+            <div class="learn-more">
+              Subscribe to our newsletter to keep up-to date with the latest
+              course offerings, trip opennings and exciting mountain adventure
+              happenings.
+            </div>
+          </div>
+          <button class="subscribe">Sign-up</button>
         </div>
       </div>
     </div>
 
-    <div id="second">
-      <div class="second-title">Trips and Courses</div>
-      <div class="second-container">
-    
-        <div class="info">
-          <img src="./images/agressive_skier2.png" id="image-box" alt="Powdery ski turn">
-          <div class="text">Avalanche Safety Training</div>
-        </div>
-        <div class="info">
-          <img src="./images/ski_tour1.png" id="image-box" alt="Skiers walking uphill">
-          <div class="text">Guided Ski Traverse</div>
-        </div>
-        <div class="info">
-          <img src="./images/alppone_climb.png" id="image-box" alt="Alpine rock climber">
-          <div class="text">Into To Alpine Climbing</div>
-        </div>
-        <div class="info">
-          <img src="./images/mountain_running.png" id="image-box" alt="Running though the moutains">
-          <div class="text">Mountain Running Clinics</div>
-        </div>
-      </div>
+    <div class="footer">
+      <p>Copyright &copy The Odin Project 2021</p>
     </div>
-
-    <div id="gap1"></div>
-
-    <div id="third">
-      <div class="quote">Our guided ski traverse along the Wapta Icefields was an incredible, once-in-a-lifetime experience. The guides were top-notch - balancing good safety practices with first-hand knowledge of the surrounding wilderness. We are already planning our next forray into the mountains with Epic Alpine Adventures!</div>
-      <div class="author">- Elated Client</div>
-    </div>
-
-    <div id="fourth">
-      <div class="fourth-container">
-      <div class="fourth-left">
-      <div class="call-to-action">Always keep learning!</div>
-      <div class="learn-more">Subscribe to our newsletter to keep up-to date with the latest course offerings, trip opennings and exciting mountain adventure happenings.</div>
-    </div>
-      <button class="subscribe">Sign-up</button>
-  </div>
-</div>
-
-  <div class="footer">
-    <p>Copyright &copy The Odin Project 2021</p>
-  </div>
-</body>
-
+  </body>
 </html>
